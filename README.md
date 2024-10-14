@@ -145,4 +145,3 @@ This project is licensed under the ISC License.
 ## Author
 
 [Luan Gustavo](https://github.com/luangustavofm)
-```
