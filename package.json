@@ -1,8 +1,9 @@
 {
   "name": "core-zipcode-br",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Brazilian ZIP code validation and lookup library. Provides address lookup from various Brazilian CEP services and validates ZIP codes based on the Brazilian format.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
     "start": "ts-node-dev src/index.ts",
@@ -11,6 +12,9 @@
     "test:watch": "jest --watch",
     "lint": "eslint 'src/**/*.{ts,tsx}' --fix"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "cep",
     "brazilian-cep",
